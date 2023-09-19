@@ -4,7 +4,9 @@
   "description": "https://beyondmediaagency-squad.monday.com/",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node build/index.js"
   },
   "author": "RubikCloud",
   "license": "ISC",
